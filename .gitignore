@@ -25,6 +25,8 @@ yarn-error.log*
 # vscode
 .vscode
 .history
+coverage
 
 # project
 server/contracts
+build
