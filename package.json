@@ -1,0 +1,41 @@
+{
+  "name": "bcos_dapp_boilerplate",
+  "version": "1.0.0",
+  "description": "基于fisco bcos联盟链实现的TodoListDApp应用项目.",
+  "scripts": {
+    "start": "yarn build && node server/index",
+    "build": "react-scripts build",
+    "deploy": "node ./scripts/deploy TodoList",
+    "test": "jest"
+  },
+  "keywords": [
+    "fisco",
+    "bcos",
+    "todolist",
+    "dapp"
+  ],
+  "author": "hackdapp@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ethers": "^5.0.8",
+    "express": "^4.17.1",
+    "lodash": "^4.17.19",
+    "nodejs-sdk": "git+https://github.com/FISCO-BCOS/nodejs-sdk.git#master",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^26.2.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
